@@ -14,13 +14,13 @@ introteksti: Mediasisältöjen data-analyysiin perustuva verkkopalvelu, jonka av
 
 esittelyteksti_eka: Selaimella käytettävällä mittarilla voi tehdä hakuja, jotka perustuvat mediatalojen tietokantoihin ja arkistoihin. Se mm. listaa haastatelluimmat henkilöt ja kertoo naisten ja miesten, eri puolueiden sekä haastateltujen ammattiryhmien osuuden eri medioissa ja ohjelmissa
 
-esittelyteksti_eka_linkki: hanke
+esittelyteksti_eka_linkki: hanke.html
 
 esittelyteksti_eka_kuvatiedosto: heart.png
 
 esittelyteksti_toka: Moniäänisyysmittari-hankkeen tärkein lähtökohta on luottamus siihen, että erilaisia näkökulmia kuuntelemalla ja yhteistä ymmärrystä lisäämällä saadaan aikaan parempaa journalismia ja laadukkaampaa julkista keskustelua.
 
-esittelyteksti_toka_linkki: mittari
+esittelyteksti_toka_linkki: mittari.html
 
 esittelyteksti_toka_kuvatiedosto: meter.png
 
