@@ -1,5 +1,7 @@
 ---
 
+layout: index
+
 title: Moniäänisyysmittari
 
 herokuva: tape.jpg
