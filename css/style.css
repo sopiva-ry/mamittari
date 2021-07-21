@@ -1,0 +1,436 @@
+/* v 0.9 */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#wpadminbar { display: none; };
+
+html, body {
+    margin: 0;
+}
+
+/* Mobile first */
+h1, h2, h3, h5, button {
+    font-family: "Oswald", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 23pt;
+    letter-spacing: -1.7pt;
+}
+
+h2, button {
+    font-size: 16pt;
+}
+
+h4, p, a {
+    font-family: "Raleway", Serif, serif;   
+}
+
+h4, p {
+    font-size: 11pt;
+    font-weight: 100;
+    margin: auto;
+    padding-top: 10px;
+    width: 80%;
+}
+
+p {
+    padding-top: 15px;
+    text-align: justify;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+.mittari-section-div h2 {
+    text-align: center;
+    padding: 10px 0 5px 0;
+    text-transform: uppercase;
+}
+
+h4, .mittari-section-div div h4 {
+    max-width: 900px;
+}
+
+.navbar {
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-collapse {
+    transition: unset !important;
+}
+
+li.menu-item {
+    border: 1px solid black;
+    margin: 1px;
+    background: #bcf5e7;
+    text-align: center;
+}
+
+li.menu-item a {
+    padding: 5px;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 10pt;
+    color: black !important;
+    margin: 0px 20px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: unset;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        display: none !important;
+    }
+
+    .navbar {
+        background: unset;
+        padding: unset !important;
+    }
+
+    .show {
+        position: fixed;
+        top: 0%;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .show {
+
+    } 
+}
+
+button {
+    transition: unset !important;
+}
+
+li.menu-item:hover, button:hover {
+    background: #007bfb !important;
+}
+
+li.menu-item:hover li.menu-item a {
+    color: white !important;
+}
+
+.video-div {
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    filter: brightness(0.15);
+}
+
+.video-div video, .video-div img {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.mittari-hero-div {
+    width: 100%;
+    text-align: center;
+}
+
+.mittari-section-div {
+    padding: 0;
+    padding-top: 15px;
+    background: white;
+}
+
+.mittari-section-div .container {
+    padding-top: 2vh;
+    padding-bottom: 14vh;
+}
+
+.background {
+    background: #e8f9f5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin-bottom: 10px;
+    max-width: 60px;
+}
+
+.title-logo {
+    margin: 10px auto 0px auto;
+    width: 90%;
+    max-width: 550px;
+}
+
+.service-logo {
+    padding: 10px;
+}
+
+.some-logo {
+    max-width: 40px;
+}
+
+/* Linkkikuvat */
+a:hover img {
+    filter: brightness(0.5);
+}
+
+.d-flex {
+    align-items: center;
+}
+
+.left-slot {
+    width: 100%;
+    text-align: center;
+}
+
+.left-slot img {
+    max-width: 100px;
+}
+
+.right-slot {
+    width: 100%;
+}
+
+/* cards */
+.card {
+    margin: 4px;
+    /* background-color: #bcf5e7; */
+    background-color: inherit;
+}
+
+.card-title {
+    margin-bottom: unset;
+    padding: 0;
+}
+
+h4.card-title {
+    font-family: "Oswald";
+}
+
+.card-body {
+    padding: 0.25rem;
+}
+
+.card div h4, .card div p {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+#uutisosa:hover a {
+    text-decoration: unset !important;
+}
+
+/* Modal */
+.modal-content .card {
+    width: 100%;
+    background-color: unset;
+}
+
+.modal-content .card img {
+    width: 40%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.modal-content .card-title {
+    margin-bottom: 0.45rem;
+}
+
+.modal-content .card .card-body {
+    padding: 1.25rem;
+}
+
+
+/* Articles */
+#article div p, #article div h1, #article div h2, #article div h3, #article div h4, #article div figure {
+    width: 90%;
+    margin: auto;
+}
+
+#article div h1, #article div h2, #article div h3, #article div h4 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#article div p {
+    padding-top: 0px;
+    margin-bottom: 2rem;
+}
+
+#article .post-meta-area {
+    padding-bottom: 30px;
+}
+
+#article .article-title {
+    padding-bottom: 10px;
+}
+
+blockquote {
+    margin: 3px 35px 1rem;
+}
+
+/* ARTICLE SOCIAL BUTTONS */
+.ss-text {
+    display: none;
+}
+ 
+.dvk-social-sharing {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* COMMENTS SECTION */
+#respond textarea, #respond input {
+    width: 100%;
+}
+ 
+#comments {
+    margin-top: 100px;
+    font-size: 100%;
+}
+ 
+.comment-respond {
+    text-align: center;
+}
+ 
+.comment-form-comment label {
+    display: block;
+}
+
+.logged-in-as {
+    text-align: center;
+}
+
+li.comment {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.comment-author.vcard img {
+    max-width: 100px;
+}
+ 
+
+@media screen and (min-width: 576px) {
+.card {
+    width: unset;
+}
+
+/* TABLET */
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 40pt;
+    }
+    
+    h2 {
+        font-size: 25pt;
+    }
+    
+    h4 {
+        font-size: 14pt;
+        font-weight: 100;
+        margin: auto;
+        line-height: 1.4;
+    }
+
+    li.menu-item a {
+        padding: 8px;
+    }
+    
+    .service-logo {
+        padding: 20px;
+        max-width: 120px;
+    }
+
+    .left-slot {
+        width: 20%;
+        max-width: 170px;
+        margin-right: 20px;
+    }
+
+    .left-slot img {
+        max-width: unset;
+    }
+
+    .right-slot {
+        width: 70%;
+    }
+}
+
+/* DESKTOP S */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 50pt;
+    }
+    
+    h2 {
+        font-size: 25pt;
+    }
+    
+    h4 {
+        font-size: 18pt;
+        font-weight: 100;
+        margin: auto;
+        line-height: 1.5;
+    }
+
+    .mittari-section-div h2 {
+        padding: 66px 0 5px 0;
+    }
+    
+    p, a {
+        font-size: 14pt;
+    }
+
+    .mittari-section-div {
+        padding-top: 30px;
+    }
+
+    li.menu-item a {
+        padding: 10px;
+    }
+
+    .card {
+        width: unset;
+    }
+}
+
+/* DESKTOP L */
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 60pt;
+    }
+    
+    h2 {
+        font-size: 30pt;
+    }
+    
+    h4 {
+        font-size: 18pt;
+        font-weight: 100;
+        margin: auto;
+    }
+
+    li.menu-item a {
+        font-size: 14pt;
+        padding: 10px;
+    }
+}
