@@ -1,0 +1,104 @@
+{% include header.html %}
+<!-- BODY STARTS -------------- -->
+    <div class="container min-vh-100 d-flex flex-wrap">
+        <div class="position-absolute min-vh-100 video-div">
+            <video autoplay muted loop poster="img/{{ page.herokuva }}" style="overflow: hidden">
+                <source src="{{ page.herovideo }}">
+                Selaimesi ei tue videota.
+            </video>
+        </div>
+        <div style="margin: auto">
+            <div class="mittari-hero-div d-flex">
+                <img src="img/{{page.sitelogo}}" class="title-logo" alt="" style="margin-left: auto;" />
+            </div>
+            <div style="margin-top: 40px; color: white">
+                <h2>{{ page.introteksti }}</h2>
+            </div>
+            <div class="text-center">    
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mittari-section-div" style="padding-top: 20vh;">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="m-3 service-logo logo">
+                    <img src="img/{{ page.esittelyteksti_eka_kuvatiedosto }}" alt="" />
+                </div>    
+            </div>
+            <h4 style="text-align: center;">{{ page.esittelyteksti_eka }}</h4>
+<p style="text-align: center;"><strong><a href="/{{ page.esittelyteksti_eka_linkki }}/">Tutustu mittariin</a></strong></p>
+        </div>
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="m-3 service-logo logo">
+                    <img src="img/{{ page.esittelyteksti_toka_kuvatiedosto }}" alt="" />
+                </div>    
+            </div>
+            <h4 style="text-align: center;">{{ page.esittelyteksti_toka }}</h4>
+<p style="text-align: center;"><strong><a href="/{{ page.esittelyteksti_toka_linkki }}/" rel="noopener">Lue lisää hankkeesta</a></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+        </div>
+    </div>
+            
+<!-- UUTISOSA -->
+<div class="container-fluid mittari-section-div" id="uutisosa">
+    <h2>Uutiset</h2>
+    <div class="container">
+    <!-- NEWS START -->
+        <div class="container-fluid mittari-section-div" style="">
+            <div class="container d-flex flex-wrap justify-content-center" style="align-items: Stretch">
+            
+                <style>#uutisosa{display:none}</style>            </div>
+        </div>
+        <!-- NEWS ENDS -->
+    </div>
+</div>
+<!-- NEWS PÄÄTTYY -->
+
+    <div class="container-fluid mittari-section-div background">
+        <h2>MITTARIN KEHITTÄJÄ</h2>
+        <div class="container">
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="left-slot">
+                    <img src="img/{{page.kehittaja_logo}}" alt="" />
+                </div>
+                <div class="right-slot">
+                    <h4>{{ page.mittarin_kehittaja_teksti }}</h4>
+<h4><a href="{{page.kehittaja_linkki}}" target="_blank" rel="noopener">Tutustu Sopivaan yhdistyksen nettisivuilla</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mittari-section-div">
+        <h2>PILOTTIVAIHEEN KUMPPANIT</h2>
+        <div class="container">
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="left-slot" style="">
+                    <img src="https://www.moniaanisyysmittari.fi/wp-content/uploads/2019/10/yle-logo.png" alt="" class="partner-logo" />
+                </div>
+                <div class="right-slot">
+                    <h4><em>“{{ page.sanottua_eka_sitaatti }}”</em></h4>
+                    <h4><strong>{{ page.sanottua_eka_nimititteli }}</strong></h4>
+                </div>
+            </div>
+
+            <br>
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="left-slot" style="">
+                    <img src="https://www.moniaanisyysmittari.fi/wp-content/uploads/2019/10/stt-logo.png" alt="" class="partner-logo" />
+                </div>
+                <div class="right-slot">
+                    <h4><em>“{{ page.sanottua_toka_sitaatti }}”</em></h4>
+                    <h4><strong>{{ page.sanottua_toka_nimititteli }}</strong></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+</div>
+</body>
+</html>
